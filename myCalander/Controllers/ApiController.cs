@@ -41,7 +41,7 @@ namespace myCalander.Controllers
                 Notes = "Running out of ideas for tasks",
                 Date = DateTime.Now
             };
-            List.Add(t3);
+            list.Add(t3);
 
              return Json(list);
 
